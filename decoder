@@ -8,7 +8,7 @@ end
 
 function react(msg)
  print("["..textutils.formatTime(os.time(), false).."] "..msg)
- redstone.setOutput("top", 15)
+ redstone.setOutput("top", true)
  pulse(10, "back")
 end
 
